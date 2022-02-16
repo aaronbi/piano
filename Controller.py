@@ -19,7 +19,7 @@ class Controller:
                                         pixel_order=neopixel.RGB)
         self.pixels.fill((0,0,0))
 
-    def process_event(self, event):
+    def process_event(self, state):
         if state == Controller.DOWN:
             self.pixels[self.next_light % self.num_lights] = self.color_on
             self.next_light+=1

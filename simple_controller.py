@@ -13,4 +13,4 @@ class SimpleController(Controller):
         message, deltatime = event
         state = message[0]
         print(message, deltatime)
-        Controller.process_event(self, event)
+        Controller.process_event(self, state)

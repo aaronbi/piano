@@ -26,7 +26,7 @@ class RainbowController(Controller):
         print(message, deltatime)
         state = message[0]
 
-        Controller.process_event(self, event)
+        Controller.process_event(self, state)
 
 ##Funtion that makes each light a different rainbow color
 def wheel(pos):
