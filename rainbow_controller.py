@@ -1,5 +1,5 @@
 # libraries for controlling lights
-from Controller import *
+from Controller import Controller
 
 class RainbowController(Controller):
     def __init__(self, num_lights):
