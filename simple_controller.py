@@ -1,10 +1,9 @@
 # libraries for controlling lights
 import board
 import neopixel
-from Controller import Controller
+from Controller import *
 
 class SimpleController(Controller):
-    DOWN = 144
 
     def __init__(self, num_lights, color_on, color_off):
         Controller.__init__(self, num_lights, color_on, color_off)
