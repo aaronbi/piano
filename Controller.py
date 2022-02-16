@@ -20,7 +20,7 @@ class Controller:
         self.pixels.fill((0,0,0))
 
     def process_event(self, event):
-        if state == SimpleController.DOWN:
+        if state == Controller.DOWN:
             self.pixels[self.next_light % self.num_lights] = self.color_on
             self.next_light+=1
         else:
