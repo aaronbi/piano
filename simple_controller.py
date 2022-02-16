@@ -1,6 +1,4 @@
 # libraries for controlling lights
-import board
-import neopixel
 from Controller import *
 
 class SimpleController(Controller):
